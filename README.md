@@ -1,7 +1,12 @@
 # Natural-Language-Processing
 
 This repository shows my NLP personal project and assignments. 
-The files : albert.py, bidaf.py, qanet.py, roberta.py and copy_of_nlpprojectanalysis.py all are components of projects.
+The following files are components of project: 
+1. albert.py 
+2. bidaf.py
+3. qanet.py
+4. roberta.py
+5. copy_of_nlpprojectanalysis.py 
 
 Rest of the files have smaller tasks covered which are explained later.
 
