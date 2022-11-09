@@ -5,8 +5,9 @@ The files : albert.py, bidaf.py, qanet.py, roberta.py and copy_of_nlpprojectanal
 
 Rest of the files have smaller tasks covered which are explained later.
 
-##Lets take a deeper look in project.
-###Intro:
+## Lets take a deeper look in project
+
+### Intro:
 The Stanford Question Answering Dataset (SQuAD 1.1),
 is a reading comprehension dataset consisting of 100,000+
 questions posed by crowdworkers on a set of Wikipedia articles, where the answer to each question is a segment of text
