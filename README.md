@@ -56,6 +56,8 @@ BERT The field of NLP has been transformed with the recent advent of pre-trained
 RoBERTa: [A Robustly Optimized BERT Pretraining Ap proach](https://arxiv.org/pdf/1907.11692.pdf) builds on BERT’s language masking strategy, and is retraining of BERT with improved training methodol ogy, more data, and compute power. Essentially it makes the following changes to the original BERT implementation. It uses more data: 160GB of text instead of the 16GB dataset originally used to train BERT. It also trains for a longer pe riod: increasing the number of iterations from 100K to 300K and then further to 500K. RoBERTa is also trained using larger batches: 8K instead of 256 in the original BERT base model, and also employs byte-level BPE vocabulary with 50K subword units instead of character-level BPE vocabu lary of size 30K. Finally, it removes the next sequence pre diction objective from the training procedure and dynam ically changes the masking pattern applied to the training data. We have employed the huggingface’ RoBERTa base model and fine-tuned it on the SQUAD dataset.
 
 ![nlp proj result pic](https://user-images.githubusercontent.com/19994641/200949589-21ec76bd-84a8-4185-9312-9c0cb9bfb0e4.png)
+![image](https://user-images.githubusercontent.com/19994641/200952838-7260ce21-eec4-4289-8ca1-37c99e57f13f.png)
+
 
 |Model	|Epochs	|F1 score	|EM score|
 |--------|-------|--------|--------|
